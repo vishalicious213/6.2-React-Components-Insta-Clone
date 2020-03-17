@@ -14,7 +14,12 @@ const App = () => {
 
   return (
     <div className="App">
-      {/* Add imported components here to render them */}
+      {/* Add imported components here to render them */
+        <>
+          <SearchBar />
+          <PostsPage />
+        </>
+      }
     </div>
   );
 };
