@@ -14,7 +14,7 @@ const PostsPage = () => {
       {/* map through data here to return a Post and pass data as props to Post */
         postsData.map(post => {
           // console.log(post)
-          return <Post data={post} />
+          return <Post data={post} key={post.timestamp} />
         })
       }
     </div>
