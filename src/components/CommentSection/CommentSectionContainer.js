@@ -14,10 +14,10 @@ const CommentSection = props => {
 
   return (
     postsData.map(post => {
-      console.log(post.username, post.text)
+      // console.log(post.username, post.text)
       return (
-        <div>
-          <Comment key={post.username} comment={post} />
+        <div key={post.username}>
+          <Comment comment={post} />
         </div>
       );
     })
