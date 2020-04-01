@@ -5,6 +5,7 @@ import './Comment.css';
 
 const Comment = props => {
   return (
+    console.log(props),
     <div className="comment-text">
       <span className="user">{props.comment.username}</span>
       {' '}
