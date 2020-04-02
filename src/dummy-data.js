@@ -2,7 +2,6 @@ const dummyData = [
     {
         username: "philzcoffee",
         thumbnailUrl: 'https://tk-assets.lambdaschool.com/ecd33d34-c124-4b75-92d2-e5c52c171ed8_11201517_887808411287357_1307163552_a.jpg',
-        // thumbnailUrl: 'https://scontent-iad3-1.cdninstagram.com/v/t51.2885-19/s150x150/67248626_346350186304601_6715901285419188224_n.jpg?_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=knDeVfZyZmEAX_f8JX8&oh=c04ae5f2798f982b96e7cd7e141aeddd&oe=5E8242C8',
         imageUrl: 'https://images.unsplash.com/photo-1477763858572-cda7deaa9bc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1876&q=80',
         likes: 400,
         timestamp: "July 17th 2017, 12:42:40 pm",
@@ -43,6 +42,39 @@ const dummyData = [
             {
                 username: "dennis_futbol",
                 text: "It that injustice"
+            }
+        ]
+    },
+    {
+        username: "vish",
+        thumbnailUrl: 'https://uglybass.files.wordpress.com/2011/03/ubf1.jpg',
+        imageUrl: 'https://uglybass.files.wordpress.com/2016/11/dsc_0717.jpg',
+        likes: 213,
+        timestamp: "April 1st 2020, 02:13:09 pm",
+        comments: [
+            {
+                username: "vish",
+                text: "Instagram clone. Clicking the heart increments the number of likes."
+            },
+            {
+                username: "fourstringer",
+                text: "Jaco only needed four strings!"
+            },
+            {
+                username: "slayerfan667",
+                text: "missed it. SLAYER!!!!! !!"
+            },
+            {
+                username: "somecoder",
+                text: "None of this matters if you don't know data structures and algorithms."
+            },
+            {
+                username: "vish",
+                text: "I've gotten two more basses since this pic in 2016, BTW."
+            },
+            {
+                username: "vish",
+                text: "And we painted the room blue-gray and have a different rug."
             }
         ]
     }
