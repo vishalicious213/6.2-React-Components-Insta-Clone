@@ -12,16 +12,31 @@ const CommentSection = props => {
   // console.log('postsData = props.data.comments', postsData);
   // console.log('comments', postsData.comments);
 
+const postComments = postsData.map(post => {
+  // console.log(post.username, post.text)
   return (
-    postsData.map(post => {
-      // console.log(post.username, post.text)
-      return (
-        <div key={post.username}>
-          <Comment comment={post} />
-        </div>
-      );
-    })
+    <div key={post.username}>
+      <Comment comment={post} />
+    </div>
+  );
+})
+
+  return (
+    <div>
+      {postComments}
+      <CommentInput />
+    </div>
   )
 };
 
 export default CommentSection;
+
+
+    // postsData.map(post => {
+    //   // console.log(post.username, post.text)
+    //   return (
+    //     <div key={post.username}>
+    //       <Comment comment={post} />
+    //     </div>
+    //   );
+    // })
