@@ -9,19 +9,27 @@ const LikeSection = props => {
 
   return (
     <div>
-      <div
-        className="like-section"
-        key="likes-icons-container"
-      >
-        <div className="like-section-wrapper">
-          <i className="far fa-heart"
-            onClick={() => setLikes(likes + 1)} />
+      <div className="like-section-container"
+        key="likes-icons-container">
+        <div className="like-section">
+          <div className="like-section-wrapper">
+            <i className="far fa-heart"
+              onClick={() => setLikes(likes + 1)} />
+          </div>
+          <div className="like-section-wrapper">
+            <i className="far fa-comment" />
+          </div>
+          <div className="like-section-wrapper">
+            <i className="far fa-paper-plane" />
+          </div>
         </div>
-        <div className="like-section-wrapper">
-          <i className="far fa-comment" />
+        <div className="like-section-right">
+          <div className="like-section-wrapper-right">
+            <i className="far fa-bookmark" />
+          </div>
         </div>
       </div>
-      <p className="like-number">{likes} likes</p>
+      <p className="like-number"><b>{likes} likes</b></p>
     </div>
   )
 };
