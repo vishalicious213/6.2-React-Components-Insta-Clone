@@ -2,30 +2,45 @@
   border-bottom: 1px solid #3333;
   height: 60px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   background: #ffffff;
+  width: 70%;
+  min-width: 320px;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .search-form {
-  width: 150px;
+  /* width: 150px; */
   font-size: 14px;
+  width: 32%;
 }
 .search-form input {
   text-align: center;
   color: #262626;
+  border-radius: 1rem;
 }
 .image-wrapper {
-  height: 50px;
+  /* height: 50px; */
+  display: flex;
+  align-items: center;
+  width: 32%;
 }
-
+.insta {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
 .logo-image {
   height: 100%;
 }
-
 .social-wrapper {
   display: flex;
+  justify-content: flex-end;
+  width: 32%;
 }
-
 .social {
   width: 50px;
 }
+

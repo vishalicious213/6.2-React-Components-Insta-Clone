@@ -7,13 +7,16 @@ const SearchBar = () => {
     <div className="search-bar-wrapper">
       <div className="image-wrapper">
         <i className="fab fa-instagram" />
+        <span className="insta" title="Vishtagram">Vishtagram</span>
       </div>
+
       <form className="search-form">
         <input
           type="text"
           placeholder="Search"
         />
       </form>
+      
       <div className="social-wrapper">
         <div className="social">
           <i className="far fa-compass" />
